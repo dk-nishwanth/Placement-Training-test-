@@ -1,0 +1,72 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    
+</head>
+<body>
+    <div class="left-section">
+        <h1>Discover the world's top Designers & Creatives</h1>
+    </div>
+    <div class="right-section">
+        <div class="form-container">
+            <h2>Create a new account</h2>
+            <form>
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Last name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <div>
+                    <label for="birthday">Birthday</label>
+                    <div style="display: flex; gap: 20px;">
+                        <select id="month" required>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Aug</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dec</option>
+                        </select>
+                        <select id="day" required>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>    
+                        </select>
+                        <select id="year" required>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="gender">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="custom"> Custom</label>
+                </div><br>
+                <div class="terms">
+                    <input type="checkbox" required> Creating an account means you're okay with our Terms of Service, Privacy Policy and our default Notification Settings
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

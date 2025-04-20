@@ -1,0 +1,138 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    
+</head>
+<body>
+    <nav class="navbar">
+            
+        <ul class="nav-links">
+            <h1>SPROUT</h1>
+            <a>Categories</a>
+            <a>Search</a>
+            <a>Bonus</a>
+            <a>Nishwanth</a>
+            <a>Cart</a>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="form-section">
+            <h1>Checkout</h1>
+            <h2>Personal Information:</h2>
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <h2>Delivery Details:</h2>
+                <label for="country">Country / Region</label>
+                <select id="country" name="country">
+                    <option>United Kingdom (UK)</option>
+                    <option>United States (US)</option>
+                </select>
+
+                <label for="city">Town / City</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="street">Street</label>
+                <input type="text" id="street" name="street" required>
+
+                <label for="postcode">Postcode</label>
+                <input type="text" id="postcode" name="postcode" required>
+
+                <label for="packaging">Packaging Type</label>
+                <select id="packaging" name="packaging">
+                    <option>Without plastic</option>
+                    <option>With plastic</option>
+                </select>
+
+                <label for="shipping">Shipping Option</label>
+                <select id="shipping" name="shipping">
+                    <option>By courier</option>
+                    <option>By post</option>
+                </select>
+                    </form>
+                    <form>
+                <h2>Payment:</h2>
+                <div class="payment-options">
+                    <input type="radio" id="apple-pay" name="payment" value="apple-pay">
+                    <label for="apple-pay">Apple Pay</label>
+                    <input type="radio" id="paypal" name="payment" value="paypal">
+                    <label for="paypal">PayPal</label>
+                    <input type="radio" id="credit-card" name="payment" value="credit-card" checked>
+                    <label for="credit-card">Credit or Debit Card</label>
+                </div>
+
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="expiration-date">Expiration Date</label>
+                <input type="text" id="expiration-date" name="expiration-date" required>
+
+                <label for="cvv">CVV Code</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </form>
+        </div>
+
+        <div class="order-summary">
+            <h2>Your Order:</h2>
+            <div class="total">
+                <span>Subtotal:</span>
+                <span>$60.30</span>
+            </div>
+            <div class="total">
+                <span>Delivery:</span>
+                <span>$8.20</span>
+            </div>
+            <div class="total">
+                <span>Total:</span>
+                <span>$68.50</span>
+            </div>
+            <button class="purchase-btn">Purchase</button>
+            <ul>
+                <br>
+                <li>
+                    <span>Jerky persimmon</span>
+                    <span>$8.60</span>
+                </li>
+                <br>
+                <li>
+                    <span>Macadamia in the shell</span>
+                    <span>$28.00</span>
+                </li>
+                <br>
+                <li>
+                    <span>Spiced nuts</span>
+                    <span>$7.20</span>
+                </li>
+                <br>
+                <li>
+                    <span>Banana</span>
+                    <span>$5.70</span>
+                </li>
+                <br>
+                <li>
+                    <span>Premium kiwifruit</span>
+                    <span>$4.00</span>
+                </li>
+                <br>
+                <li>
+                    <span>Orange</span>
+                    <span>$6.80</span>
+                </li>
+            </ul>
+            </div>
+    </div>
+</body>
+</html>
