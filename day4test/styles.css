@@ -1,0 +1,170 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .sidebar h2 {
+            font-size: 24px;
+            color: #000;
+           
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+
+        }
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+        .sidebar ul li a {
+            color: #1da1f2;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .sidebar .quick-actions button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            background: #1da1f2;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .sidebar .quick-actions button:last-child {
+            background: #e0e0e0;
+            color: #333;
+        }
+        .sidebar .logout {
+            color: #1da1f2;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .main-content {
+            width: 75%;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+       
+        .header .nav-tabs button, .explore .nav-tabs button {
+            padding: 8px 15px;
+            border: none;
+            background: #f0f4f8;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #666;
+        }
+       
+        .explore {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+        }
+        .explore button {
+            padding: 8px 15px;
+            background: #1da1f2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .explore .filters {
+            color: #1da1f2;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .discount-card {
+            background: #e6ffe6;
+            border-radius: 10px;
+            padding: 20px;
+            height: 100px;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .discount-card button {
+            background: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .winter-weekend {
+            background: #fdffe6;
+            border-radius: 10px;
+            padding: 20px;
+            height: 100px;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .box-1 {
+            background: #fdffe6;
+            border-radius: 10px;
+            padding: 20px;
+            height: 100px;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .box-2 {
+            background: #feffd3;
+            padding: 20px;
+            height: 30px;
+            width: 250px;
+            border-radius: 50px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .box-3 {
+            background: #feffd3;
+            padding: 20px;
+            height: 25px;
+            width: 60px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 320px;
+            margin-bottom: 100px;
+            margin-top: -82px;  
+        }
