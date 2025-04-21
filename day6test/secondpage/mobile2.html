@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Task</title>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Create new task</h1>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="main-task-name">Main task name</label>
+                <input type="text" id="main-task-name" placeholder="UI/UX App Design">
+            </div>
+            <div class="form-group">
+                <label for="due-date">Due date</label>
+                <input type="datetime-local" id="due-date">
+            </div>
+            <div class="form-group">
+                <label>Choose priority</label>
+                <div class="priority-buttons">
+                    <button type="button" class="high">High</button>
+                    <button type="button" class="medium">Medium</button>
+                    <button type="button" class="low">Low</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="sub-task-name">Sub-task name</label>
+                <input type="text" id="sub-task-name" placeholder="Prototyping">
+            </div>
+            <div class="add-subtask">
+                <input type="text" placeholder="Enter sub-task name">
+                <button type="button">Animate the logo</button>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" id="sub-task-name" placeholder="First i have to animate the logo and later prototype my design it's very important.">
+            </div>
+            <div class="action-buttons">
+                <button type="button" class="add-task">Add task</button>
+                <button type="reset" class="clear">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

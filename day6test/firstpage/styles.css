@@ -1,0 +1,79 @@
+    body {
+            background-color: #a1a0a0;
+        }
+        .container {
+            max-width: 350px;
+            border-color: black solid 10px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            height: 700px; ;
+        }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .header span {
+            color: #ff6b6b;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            background: #f1f1f1;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .search-bar input {
+            border: none;
+            background: none;
+            outline: none;
+            flex: 1;
+        }
+        .search-bar img {
+            width: 24px;
+            height: 24px;
+        }
+        .section-title {
+            font-size: 18px;
+            margin: 20px 0 10px;
+        }
+        .task-card1 {
+            display: flex;  
+            justify-content: space-between;
+            align-items: center;
+            border-right: #ff6b6b solid 5px;
+            background: #f1f1f1;
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            width: autp;
+            height: 60px;
+        }
+        .task-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f1f1f1;
+            border-right: #ff6b6b solid 5px;
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+        .create-task-btn {
+            display: block;
+            width: 50%;
+            text-align: center;
+            background: #007bff;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-left: 80px;
+        }

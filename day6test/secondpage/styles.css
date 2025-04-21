@@ -1,0 +1,129 @@
+body {
+    background-color: #a1a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 380px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+.priority-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.priority-buttons button {
+    flex: 1;
+    width: 5px;
+    height: 30px; ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.priority-buttons .high {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.priority-buttons .medium {
+    background-color: #ffa502;
+    color: #fff;
+}
+
+.priority-buttons .low {
+    background-color: #2ed573;
+    color: #fff;
+}
+
+.add-subtask {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.add-subtask input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+.add-subtask button {
+    padding: 10px 15px;
+    background-color: #ffa502;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-buttons .add-task {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.action-buttons .clear {
+    background-color: #ddd;
+    color: #333;
+}
