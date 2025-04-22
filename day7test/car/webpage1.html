@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+   
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <input type="text" placeholder="Search any car here">
+            <button>Search</button>
+        </div>
+        <div class="profile">
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Type</h3>
+            <label><input type="checkbox"checked> Sport (15)</label>
+            <label><input type="checkbox"checked> SUV (10)</label>
+            <label><input type="checkbox"> MPV (12)</label>
+            <label><input type="checkbox"> Sedan (20)</label>
+            <label><input type="checkbox"> Coupe (5)</label>
+            <label><input type="checkbox"> Hatchback (10)</label>
+            <h3>Capacity</h3>
+            <label><input type="checkbox"checked> 2 Person (16)</label>
+            <label><input type="checkbox"> 4 Person (10)</label>
+            <label><input type="checkbox"> 6 Person (18)</label>
+            <label><input type="checkbox"checked> 8 or More (12)</label>
+            <div class="price-range">
+                <h3>Price</h3>
+                <input type="range" min="0" max="200" value="100">
+                <p>Max: $200.00</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="filters">
+                <select>
+                    <option>Pick-Up Location</option>
+                </select>
+                <select>
+                    <option>Date</option>
+                </select>
+                <select>
+                    <option>Time</option>
+                </select>
+                <select>
+                    <option>Drop-Off Location</option>
+                </select>
+                <select>
+                    <option>Date</option>
+                </select>
+                <select>
+                    <option>Time</option>
+                </select>
+            </div>
+            <div class="car-grid">
+                <div class="car-card">
+                    <h4>Nissan GT-R</h4>
+                    <h6>Sport</h6>
+                    <p class="details">80L | Manual | 2 People</p>
+                    <p class="price">$80.00/day</p>
+                    <button>Rent Now</button>
+                </div>
+                <div class="car-card">
+                    <h4>Rolls-Royce</h4>
+                    <h6>Luxury</h6>
+                    <p class="details">70L | Manual | 4 People</p>
+                    <p class="price">$96.00/day</p>
+                    <button>Rent Now</button>
+                </div>
+                <div class="car-card">
+                    <h4>CR-V</h4>
+                    <h6>Power</h6>
+                    <p class="details">80L | Manual | 4 People</p>
+                    <p class="price">$80.00/day</p>
+                    <button>Rent Now</button>
+                </div>
+                <div class="car-card">
+                    <h4>All New Terios</h4>
+                    <h6>Sport</h6>
+                    <p class="details">60L | Manual | 6 People</p>
+                    <p class="price">$74.00/day</p>
+                    <button>Rent Now</button>
+                </div>
+                <div class="car-card">
+                    <h4>New MG ZS</h4>
+                    <h6>Sport</h6>
+                    <p class="details">60L | Manual | 6 People</p>
+                    <p class="price">$80.00/day</p>
+                    <button>Rent Now</button>
+                </div>
+                <div class="car-card">
+                    <h4>MG ZX Excite</h4>
+                    <h6>Sport</h6>
+                    <p class="details">60L | Manual | 6 People</p>
+                    <p class="price">$80.00/day</p>
+                    <button>Rent Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
